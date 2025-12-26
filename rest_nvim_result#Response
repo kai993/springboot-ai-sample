@@ -1,0 +1,7 @@
+### 全ユーザー取得
+GET http://localhost:8080/api/users HTTP/1.1
+HTTP/1.1 200 
+
+# @_RES
+[{"id":1,"name":"山田太郎","email":"yamada@example.com","createdAt":"2025-11-13T11:38:01.938459","updatedAt":"2025-11-13T11:38:01.938459"},{"id":2,"name":"佐藤花子","email":"sato@example.com","createdAt":"2025-11-23T11:38:01.938459","updatedAt":"2025-12-03T11:38:01.938459"},{"id":3,"name":"田中次郎","email":"tanaka@example.com","createdAt":"2025-11-28T11:38:01.938459","updatedAt":"2025-12-08T11:38:01.938459"}]
+# @_END

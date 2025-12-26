@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: springboot-ai-sample
+
+# ヘルスチェック
+management:
+    health:
+        diskspace:
+            enabled: true

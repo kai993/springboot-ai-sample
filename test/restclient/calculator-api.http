@@ -1,0 +1,8 @@
+@URL = localhost:8080
+
+### calculate_circle_area
+POST http://{{URL}}/api/calculator/circle_area HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+radius=4
+
